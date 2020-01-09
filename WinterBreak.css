@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    background: white;
+    width: 100%;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 20px;
+    margin 0px;
+   }
+   
+   
+   .bodyWrapper {
+    width:100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+}
+
+.bodyObject {
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.bodyObjecting {
+    height: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.bodyObjectpadding {
+    padding-left:20px;
+}
+  
+  
+ .aboutWrapper { width: 100%; height: 100vh; position: absolute;}
+.navWrapper {
+    width:100%;
+    height: 160px;
+    background: grey;
+    display:-webkit-box;
+}
+
+
+.bodyObject2 {
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
